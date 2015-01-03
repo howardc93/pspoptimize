@@ -1,0 +1,128 @@
+/* Global Styles */
+
+body {
+	margin:0px;
+ 	background-color:#000000;
+	}
+	
+#page {
+	margin: 0 auto;
+	width: 470px;
+	text-align:left;
+	}
+	
+td {
+	color:#99CCFF;
+	font-family: arial;
+	font-size: 10px;
+	border-color: #000000;
+	}
+	
+hr {
+	height:3px; 
+	color: #000000;
+	}
+	
+a {
+	color: #FFFF00;
+	text-decoration:underline;
+	}
+	
+a:hover {
+	color: #00FFFF;
+	}
+	
+/* ID Styles */
+
+#navigation a {
+	color: #aaccFF;
+	font-weight:bold;
+	text-decoration: none;
+	line-height:16px;
+	display:block;
+	padding:10px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align:center;
+	}
+	
+#navigation a:hover {
+	color:#ffffff;
+	text-decoration: underline;
+	border-right-width: 0px; 
+	border-left-width: 0px; 
+	text-align:center;
+	}
+	
+#sidebarHeader {
+	padding: 0px 4px 14px 4px;
+	}
+
+#logo {
+	font:18px georgia;
+	color: #CC3300;
+	line-height:24px;
+	letter-spacing:0.4em;
+	background: black;
+	}
+
+#tagline {
+	font:12px georgia;
+	color: #CC3300;
+	line-height:normal;
+	}
+	
+#dateformat a {
+	color:#99CCFF;
+	font:11px georgia;
+	color: #99CCFF;
+	letter-spacing:.2em;
+	text-decoration:none;
+	font-weight:bold;
+	}
+	
+#dateformat a:hover {
+	color: #ffffff;
+	}
+
+/* Class Styles */
+	
+.pageName{
+	font:24px "Terminator Two";
+	color: #009940;
+	font-weight:bold;
+	}
+
+.underpagename{
+	font:16px "Terminator Two";
+	color: #0040EE;
+	}
+	
+.subHeader {
+	color: #CC3300;
+	font: 16px arial;
+	font-weight:bold;
+	}	
+	
+.sidebarHeader {
+	font:14px georgia;
+	color: #00AAFF;
+	font-weight:bold;
+	}
+	
+.dates {
+	font:12px arial;
+	color:#00AAFF;
+	font-weight:bold;
+	}
+	
+.smallText {
+	font:11px arial;
+	color:#FFFFFF;
+	font-weight: normal;
+	}
+	
+
+	

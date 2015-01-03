@@ -1,0 +1,17 @@
+<html><head><title>Text Editor</title><style type="text/css">Body{background-color:#000000;padding:0px;font-family:arial,helvetica,tahoma,sans-serif;font-size:12px;color:#FFFFFF;}a{font-family:arial,helvetica,tahoma,sans-serif;font-size:12px;text-decoration:underline;}:link{color:#FFFFFF;}:visited{color:#FFFFFF;}:hover{color:#FFFFFF;}tr.DarkCenter{background-color:#808080;font-family:arial,helvetica,tahoma,sans-serif;font-size:16px;color:#FFFFFF;}td.td1{font-family:arial,helvetica,tahoma,sans-serif;font-size:16px;color:#FFFFFF;}div.DarkCenter{background-color:#808080;font-family:arial,helvetica,tahoma,sans-serif;font-size:16px;color:#FFFFFF;}hr.Light{color:#808080;}input.i1{font-family:arial,helvetica,tahoma,sans-serif;font-size:12px;text-decoration:none;}:link.i1{color:#000000;}:visited.i1{color:#000000;}:hover.i1{color:#000000;}</style><script type="text/javascript">
+function saveCurrPage() {
+document.textFrame.document.textForm.textInputTxt.value = document.textFrame.document.textForm.textInput.value;
+document.textFrame.document.textForm.submit();
+}
+function flushPage() {
+document.textFrame.document.textForm.textInputTxt.value = " ";
+document.textFrame.document.textForm.submit();
+}
+</script></head><body><div align=center><table align=center width=390 height=200 bgcolor=#006699 border=0 cellpadding=2 cellspacing=1><tr><td height=40 colspan=3 align=center><table width=100% border=0 cellpadding=0 cellspacing=0><tr>
+            <td class=td1 align=left>Text Editor </td><td align=right>&nbsp;</td>
+</tr></table></td></tr><form id=text action=../organize/texteditor/display><tr class=DarkCenter><td align=center colspan=3>
+<iframe name=textFrame align=middle style="height:111px; width:442px" src=textedit_input.htm scrolling=no frameborder=0></iframe>
+</td></tr><tr class=DarkCenter><td align=center><input class=i1 type=button onClick="saveCurrPage();location.href='index.htm';" Value="Save Page"></td><td align=center>&nbsp;</td>
+<td align=center><input class=i1 type=button onClick="flushPage();location.href='index.htm';" Value="Clear Page"></td></tr><tr class=DarkCenter>
+  <td align=center colspan=3><font size=1>Warning: Deleting the Input History under Tools will delete the saved text. </font></td>
+</tr></form></table></div></body></html>
